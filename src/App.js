@@ -1,7 +1,6 @@
 import './App.css';
 import logo from './images/logo-large.png';
-import Task  from './components/Task';
-import TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -15,8 +14,7 @@ function App() {
       </div>
       <div className='main-task-list'>
         <h1>My Tasks</h1>
-        <Task text='Aprender React'/>
-        <TaskForm />
+        <TaskList></TaskList>
       </div>
     </div>
   );
