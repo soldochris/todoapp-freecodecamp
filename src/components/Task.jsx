@@ -15,7 +15,7 @@ const Task = ({ id, text, completed, completeTask, deleteTask }) => {
       </div>
       <div 
       className='task-icon-container'
-      onClick={deleteTask(id)}
+      onClick={()=> deleteTask(id)}
       >
         <BsFillTrashFill className='task-icon'/>
       </div>
